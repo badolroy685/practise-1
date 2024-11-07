@@ -1,0 +1,50 @@
+
+
+ .nm{
+   height: 400px;
+   width: 600px;
+   text-align: center;
+   border: 1px solid rgb(0, 0, 0, 0.5);
+   margin: auto;
+   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+img{
+  width: 100%;
+}
+h3{
+  margin: 0;
+}
+.so{
+  height: 105px;
+  width: 151px;
+  background: url(05.png) no-repeat  ;
+  background-position: 0 -99px;
+border-radius: 50%;  
+ 
+}
+.so:hover{
+  background-position: -920px -589px ;
+}
+h1{
+  text-align: center;
+}
+.box{
+height: 400px;
+width: 400px;
+border: 15px solid black;
+margin: 100px auto;
+align-items: center;
+justify-content: center;
+display: flex;
+animation: box 2s infinite forwards;
+}
+@keyframes box{
+  
+}
+.circle{
+  height: 200px;
+  width: 200px;
+ border: 5px solid black;
+ 
+}
